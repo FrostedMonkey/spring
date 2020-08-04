@@ -1,0 +1,22 @@
+一、组件注册
+1、@Configuration&Bean、@ComponScan、
+beans.xml、MainConfig.java 、Maintest.java、MyTypeFilter.java
+2、@Scope、@Lazy、@Conditional
+MainConfig2.java、LinuxCondition.java、WindowsCondition.java
+3、@Import
+MainConfig2.java、MyImportSelector.java、MyImportBeanDefinitionRegistrar.java
+4、使用FactoryBean注册组件
+ColorFactory.java
+二、生命周期
+1、@Bean指定初始化和销毁方法
+MainConfigOfLifeCycle.java
+2、InitializingBean、DisposableBean
+Cat.java、IOCTest_LifeCycle
+3、@PostConstruct @PreDestory
+Dog.java
+4、BeanPostProcessor
+MyBeanPostProcessor
+三、属性赋值
+@Value @PropertySource
+Person.java person.properties IOCTest_PropertyValue.java MainConfigOfPropertyValues.java
+四、
